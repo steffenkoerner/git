@@ -54,4 +54,9 @@ I made the experience that adding the tests to a separate file in the test folde
 any merge conflict. But this only works if the test target automatically includes all the files in the test folder. In bazel this is done in the cc_test rule by using the glob() funcion.
 
 
+* git bisect start
+* git bisect good ...
+* git bisect bad ...
+* git bisect run <script>
+
 
